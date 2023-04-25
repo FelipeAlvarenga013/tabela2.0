@@ -67,6 +67,7 @@ var n1 = 1;
             vl.style.display = 'block';
         });
         document.querySelector('section').style.marginLeft = '50px';
+        document.querySelector('aside').style.margin = '0px 0px 50px 35px';
     }
 
     if(window.innerWidth < 805 && window.innerWidth > 600) {
