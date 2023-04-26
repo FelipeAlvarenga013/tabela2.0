@@ -59,7 +59,7 @@ th {
 table
 thead
 th:first-child {
-    left: 0;
+    left: -1px;
     width: 100px;
     position: sticky;
     font-size: 10px;

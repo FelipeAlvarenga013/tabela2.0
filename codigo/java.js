@@ -7,6 +7,7 @@ var n1 = 1;
     if (window.innerWidth <= 710) {
         if (window.innerWidth <= 700) {
             document.querySelector('section').style.marginLeft = '10px';
+            document.querySelector('aside').style.margin = '0px 0px 50px -4px';
         }
         
         if (window.innerWidth < 600) {
@@ -31,7 +32,7 @@ var n1 = 1;
             vl.style.width = '';
         });
 
-        document.querySelector('aside').style.margin = '0px 0px 50px -4px';
+        
  
     }
 
