@@ -32,11 +32,12 @@ var n1 = 1;
             vl.style.width = '';
         });
 
-        
+        document.querySelector("thead th:first-child").style.left = '1px';
  
     }
 
     if (window.innerWidth > 709 && window.innerWidth <= 723) {
+        document.querySelector("thead th:first-child").style.left = '';
         document.querySelector('section').style.marginLeft = '50px';
         document.querySelector('table').style.cssText = 'width:100%; max-width: 655px;';
         document.querySelectorAll('table tbody td').forEach((vl) => { vl.style.minWidth = '47px' });
@@ -54,6 +55,7 @@ var n1 = 1;
         });
         document.querySelector('aside').style.margin = '0px 0px 50px 35px';
     }else if (window.innerWidth > 730) {
+        document.querySelector("thead th:first-child").style.left = '';
         document.querySelector('table').style.cssText = 'width: 750px;';
         document.querySelectorAll('tbody td.num0').forEach((vl) => {
             vl.style.cssText = ''
