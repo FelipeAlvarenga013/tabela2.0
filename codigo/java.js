@@ -1,4 +1,4 @@
-
+"use strict";
 var n1 = 1;
 (window.onresize = () => {
     
@@ -89,14 +89,14 @@ var n1 = 1;
         document.querySelector('aside').style.width = '570px';
     }
 
-    if (window.innerWidth <= 1355) {
+    if (window.innerWidth <= 1235) {
         n1 = 2;
         document.querySelector('thead th:first-child').style.borderRight = '1px solid #292929';
         document.querySelectorAll('tbody td.num0').forEach((vl, ch) => {
             vl.style.borderRight = '1px solid #000';
         });
 
-    } else if (window.innerWidth > 1355) {
+    } else if (window.innerWidth >= 1236) {
         n1 = 1;
         document.querySelector('thead th:first-child').style.borderRight = 'none';
         document.querySelectorAll('tbody td.num0').forEach((vl) => {
